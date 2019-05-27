@@ -215,3 +215,36 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+/* Media Queries */
+
+/* These rules take effect when the browser's width
+is either 980px or less. */
+@media screen and (max-width: 980px) {
+
+}
+
+/* 768px or less.  */
+@media screen and (max-width: 768px) {
+
+  #logo {
+  clear: both;
+  width: 100%;
+}
+
+nav {
+  float: left;
+}
+
+}
+/* 640px or less.  */
+@media screen and (max-width: 640px) {
+#masthead  {
+  position: static;
+}
+
+.auth-image {
+    width: 100%;
+  }
+
+
+}
