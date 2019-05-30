@@ -215,6 +215,7 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
 /* Media Queries */
 
 /* These rules take effect when the browser's width
@@ -240,13 +241,16 @@ nav {
 }
 /* 640px or less.  */
 @media screen and (max-width: 640px) {
+
 #masthead  {
   position: static;
+}
+
+.work {
+  width: 100%;
 }
 
 .auth-image {
     width: 100%;
   }
-
-
 }
